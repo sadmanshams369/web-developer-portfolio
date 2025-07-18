@@ -9,8 +9,14 @@
 .text-primary{
     color: #FD6E0A;
 }
+.dark-1{
+    color: #181818;
+}
 .dark-2{
     color: #474747;
+}
+.dark-3{
+    color: #757575;
 }
 .btn-primary{
     background-color: #FD6E0A;
@@ -20,6 +26,16 @@
     border-radius: 5px;
     font-size: 20px;
     border: none;
+}
+.btn-primary2{
+    color: #FD6E0A;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border-color: #FD6E0A;
+    background-color: #FFF8F3;
+    margin: 0 0 0 30px;
 }
 /* Nav Styles */
 nav{
@@ -49,6 +65,7 @@ nav ul li a{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    background-color: #FFF8F3;
 }
 /* Banner Styles */
 .banner{
@@ -75,4 +92,161 @@ nav ul li a{
 .banner-profile-pic{
     width: 584px;
     height: 676px;
+}
+/* About Styles */
+.about{
+    height: 550px;
+    max-width: 1140px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin: 130px 230px 130px 230px;
+    display: flex;
+}
+.about-section{
+    background-color: #FFFFFF;
+    margin: 131px 157px 131px 157px;
+    height: 288px;
+    width: 827px;
+    border: 1px solid #000000;
+}
+.about-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.about-description{
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 7px;
+    height: 60px;
+    width: 782px;
+}
+.info-title{
+    font-size: 20px;
+    font-weight: 400;
+}
+.information{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+/* Experience Styles */
+.exp-des{
+    height: 90px;
+    width: 909px;
+    text-align: center;
+    margin-left: 310px;
+}
+.ban-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.ban{
+    height: 320px;
+    width: 267px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 10px 10px #eeebeb;
+    border-radius: 5px;
+    padding: 30px 0 0 30px;
+}
+.ban-title{
+     font-size: 20px;
+    font-weight: bold;
+}
+.ban-des{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    height: 196px;
+    width: 210px;
+}
+/* Resume */
+.tit{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.prog{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+.uni{
+    font-size: 20px;
+    font-weight: 600;
+}
+.r-des{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    height: 70px;
+    width: 511px;
+}
+.parent{
+    display: flex;
+    align-items: center;
+}
+.edu230{
+    margin-left: 230px;
+}
+.exp812{
+    margin-left: 71px;
+}
+.bor-bot{
+    border-bottom: 1px solid #D1D1D1;
+}
+.tit, .prog, .uni{
+    margin-top: 10px;
+}
+.dl-btn{
+    margin-top: 50px;
+    margin-left: 700px;
+}
+/* Footer */
+.footer{
+    background-color: #FFF8F3;
+    height: 780px;
+    width: 1600px;
+    margin-top: 113px;
+}
+.con-li{
+    list-style: none;
+    display: inline;
+    margin-right: 24px;
+}
+.footer{
+    display: flex;
+    gap: 117px;
+    align-items: center;
+}
+.foot-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.con-para{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+}
+.inp, textarea{
+    display: block;
+    margin-bottom: 24px;
+    height: 50px;
+    width: 400px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.sub-btn{
+    height: 64px;
+    width: 150px;
+    text-align: center;
 }
